@@ -1,0 +1,87 @@
+﻿<?xml version="1.0"?>
+<Machine>
+  <id>1</id>
+  <Name>Maquina1</Name>
+  <Boat>
+      <Name>La Venganza Errante</Name>
+      <Crew>200</Crew>
+      <Ration>200</Ration>
+      <Ammunition>200</Ammunition>
+      <Initial_departure>Isla Nueva Esperanza</Initial_departure>
+      <Type>Pirate</Type>
+      <Islands>
+          <Island>
+             <id>1</id>
+             <type>island</type>
+             <Name>Isla Nueva Esperanza</Name>
+             <point_x>15</point_x>
+             <point_y>400</point_y>
+             <places>
+                 <place>Puerto Real</place>
+                 <place>Cala de los Martires</place>
+                 <place>Playa de las perlas</place>
+             </places>
+          </Island>
+          
+          <Island>
+             <id>2</id>
+             <type>dropped</type>
+             <Name>Cayo del buen viento</Name>
+             <point_x>700</point_x>
+             <point_y>400</point_y>
+          </Island>
+          
+          <Island>
+             <id>3</id>
+             <type>dropped</type>
+             <Name>Cayo de sotavento</Name>
+             <point_x>400</point_x>
+             <point_y>400</point_y>
+          </Island>
+      </Islands>
+  </Boat>
+  <Calamities>
+      <Calamity>
+          <Name>Cañones</Name>
+          <id_island>1</id_island>
+          <low_crew>40</low_crew>
+          <low_munition>40</low_munition>
+          <low_ration>40</low_ration>
+      </Calamity>
+      
+      <Calamity>
+          <Name>Disparos de armas</Name>
+          <id_island>2</id_island>
+          <low_crew>50</low_crew>
+          <low_munition>50</low_munition>
+          <low_ration>50</low_ration>
+      </Calamity>
+      
+      <Calamity>
+          <Name>Invasion con espadas</Name>
+          <id_island>3</id_island>
+          <low_crew>30</low_crew>
+          <low_munition>30</low_munition>
+          <low_ration>30</low_ration>
+      </Calamity>
+  </Calamities>
+  
+  <Treasures>
+      <Treasure>
+          <id_island>1</id_island>
+          <Name>Barra de Oro</Name>
+          <Weight>25</Weight>
+      </Treasure>
+      <Treasure>
+          <id_island>1</id_island>
+          <Name>Barra de Plata</Name>
+          <Weight>50</Weight>
+      </Treasure>
+      <Treasure>
+          <id_island>1</id_island>
+          <Name>Bolsa de Perlas</Name>
+          <Weight>5</Weight>
+      </Treasure>
+      
+  </Treasures>
+</Machine>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0"?>
+<Machine>
+  <id>2</id>
+  <Name>Maquina2</Name>
+  <Boat>
+      <Name>Naves HSM</Name>
+      <Crew>300</Crew>
+      <Ration>300</Ration>
+      <Ammunition>300</Ammunition>
+      <Initial_departure>Isla La Holandesa</Initial_departure>
+      <Type>Real Majestad</Type>
+      <Islands>
+          <Island>
+             <id>1</id>
+             <type>island</type>
+             <Name>Isla La Holandesa</Name>
+             <point_x>50</point_x>
+             <point_y>350</point_y>
+             <places>
+                 <place>Puerto de la Reina</place>
+                 <place>Bahía del Buen Reposo</place>
+                 <place>Cueva de los marineros</place>
+             </places>
+          </Island>
+          
+          <Island>
+             <id>2</id>
+             <type>island</type>
+             <Name>Isla El Naugrago</Name>
+             <point_x>350</point_x>
+             <point_y>400</point_y>
+             <places>
+                 <place>Bahía de la esperanza</place>
+                 <place>Cueva del bucanero</place>
+             </places>
+          </Island>
+      </Islands>
+  </Boat>
+  <Calamities>
+      <Calamity>
+          <Name>Cañones</Name>
+          <id_island>1</id_island>
+          <low_crew>60</low_crew>
+          <low_munition>60</low_munition>
+          <low_ration>60</low_ration>
+      </Calamity>
+      
+      <Calamity>
+          <Name>Disparos de armas</Name>
+          <id_island>2</id_island>
+          <low_crew>50</low_crew>
+          <low_munition>50</low_munition>
+          <low_ration>50</low_ration>
+      </Calamity>
+      
+      <Calamity>
+          <Name>Invasion con espadas</Name>
+          <id_island>3</id_island>
+          <low_crew>40</low_crew>
+          <low_munition>40</low_munition>
+          <low_ration>40</low_ration>
+      </Calamity>
+  </Calamities>
+  
+  <Treasures>
+      <Treasure>
+          <id_island>1</id_island>
+          <Name>Bolsas de Perlas</Name>
+          <Weight>10</Weight>
+      </Treasure>
+      <Treasure>
+          <id_island>1</id_island>
+          <Name>Bolsas de Monedas de Oros</Name>
+          <Weight>15</Weight>
+      </Treasure>
+      <Treasure>
+          <id_island>1</id_island>
+          <Name>Cofres de Joya</Name>
+          <Weight>15</Weight>
+      </Treasure>
+      
+  </Treasures>
+</Machine>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0"?>
+<Machine>
+  <id>4</id>
+  <Name>Maquina 4</Name>
+  <Boat>
+      <Name>Maquina 4</Name>
+      <Crew>0</Crew>
+      <Ration>0</Ration>
+      <Ammunition>0</Ammunition>
+      <Initial_departure> </Initial_departure>
+      <Type></Type>
+      <Islands>
+          <Island>
+             <id>1</id>
+             <type>island</type>
+             <Name>La Gran Isla de la Española</Name>
+             <point_x>800</point_x>
+             <point_y>350</point_y>
+             <places>
+                 <place>Puerto Rico</place>
+                 <place>Puerto de las Ballenas</place>
+                 <place>Bahía del tesoro perdido</place>
+                 <place>Cueva del pirata</place>
+             </places>
+          </Island>
+          
+          <Island>
+             <id>2</id>
+             <type>dropped</type>
+             <Name>Cayo de los Pelicanos</Name>
+             <point_x>950</point_x>
+             <point_y>500</point_y>
+          </Island>
+      </Islands>
+  </Boat>
+  <Calamities>
+      <Calamity>
+          <Name>Cañones</Name>
+          <id_island>1</id_island>
+          <low_crew>60</low_crew>
+          <low_munition>60</low_munition>
+          <low_ration>60</low_ration>
+      </Calamity>
+      
+      <Calamity>
+          <Name>Disparos de armas</Name>
+          <id_island>2</id_island>
+          <low_crew>50</low_crew>
+          <low_munition>50</low_munition>
+          <low_ration>50</low_ration>
+      </Calamity>
+      
+      <Calamity>
+          <Name>Invasion con espadas</Name>
+          <id_island>3</id_island>
+          <low_crew>40</low_crew>
+          <low_munition>40</low_munition>
+          <low_ration>40</low_ration>
+      </Calamity>
+  </Calamities>
+  
+  <Treasures>
+      <Treasure>
+          <id_island>1</id_island>
+          <Name> Cofres de piedras preciosas</Name>
+          <Weight>10</Weight>
+      </Treasure>
+      <Treasure>
+          <id_island>1</id_island>
+          <Name>Bolsas de Monedas de Oros</Name>
+          <Weight>15</Weight>
+      </Treasure>
+      <Treasure>
+          <id_island>1</id_island>
+          <Name>Corazón de la Princesa</Name>
+          <Weight>5</Weight>
+      </Treasure>
+      
+  </Treasures>
+</Machine>
